@@ -1,0 +1,187 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMc8WQZyZJPBaMnCbtHBUox",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lopes689/auladePA/blob/main/aula4%20PA\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "aula de programação e algoritmos\n",
+        "\n",
+        "* calcular uma área\n",
+        "\n",
+        "#Entrada\n",
+        "\n",
+        "Ler lado1\n",
+        "Ler lado1\n",
+        "\n",
+        "#Processamento\n",
+        "\n",
+        "area=lado1 * lado2\n",
+        "\n",
+        "#Saída\n",
+        "\n",
+        "Escrever o total da área"
+      ],
+      "metadata": {
+        "id": "UiK2KudlsLR8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Variável recebe o valor dos lados\n",
+        "\n",
+        "# Entrada\n",
+        "lado_1 = 7\n",
+        "lado_2 = 3\n"
+      ],
+      "metadata": {
+        "id": "x8q78h_7uMBd"
+      },
+      "execution_count": 34,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Processamendo\n",
+        "\n",
+        "area = lado_1 * lado_2"
+      ],
+      "metadata": {
+        "id": "eO-c1LDSwZLv"
+      },
+      "execution_count": 35,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Saída\n",
+        "\n",
+        "print (f\"Total da area calculada: {area} metros quadrados\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WO0o29bIxPd5",
+        "outputId": "a8ab27b8-8e71-4061-fb77-be8e534bf706"
+      },
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total da area calculada: 21 metros quadrados\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Operadores aritméticos:\n",
+        "\n",
+        "\n",
+        "1.  Soma = +\n",
+        "2.  Subtração = -\n",
+        "3.  Multiplicação =*\n",
+        "4.  Divisão=/"
+      ],
+      "metadata": {
+        "id": "3Oxe51HDzpHJ"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Atividade:\n",
+        "\n",
+        "Fazer um algoritmo e depois o programa que recebe 4 notas do aluno e calcula a média aritmética e imprimi a média"
+      ],
+      "metadata": {
+        "id": "e0KVNNKK0i5j"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Variáveis da nota dos alunos\n",
+        "# Entrada\n",
+        "aluno1 = 8\n",
+        "aluno2 = 7\n",
+        "aluno3 = 9\n",
+        "aluno4 = 6"
+      ],
+      "metadata": {
+        "id": "TZ8u3h2k2bTu"
+      },
+      "execution_count": 37,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Processamento\n",
+        "\n",
+        "media_aritmética = (aluno1 + aluno2 + aluno3 + aluno4) / 4"
+      ],
+      "metadata": {
+        "id": "dR0Tm2gd34-g"
+      },
+      "execution_count": 40,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Saída\n",
+        "\n",
+        "print (media_aritmética)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TpPnE1nr4pVQ",
+        "outputId": "42a02dbe-2622-49d5-c352-11d9b6481d0e"
+      },
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7.5\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
